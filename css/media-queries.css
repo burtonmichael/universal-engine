@@ -1,0 +1,166 @@
+@media (max-width:250px){
+	.search-form .button-wrap {
+		position: relative; 
+		clear: both;
+		display: block;
+	}
+	.age-wrap {
+		margin-bottom: 0.4em;
+	}
+}
+@media (max-width:767px){
+	.ui-datepicker{
+		left: 50% !important;
+		margin-left: -107px !important;
+	}
+}
+@media (max-width:900px){
+	.check-label {
+		font-size: 0.9em;
+	}
+}
+
+@media (min-width:720px){
+	.header {
+		padding-bottom: 110px;
+	}
+	.module-search .heading {
+		text-align: left;
+	}
+	.rtl .module-search .heading {
+		text-align: right;
+	}
+	.button-wrap {
+		width: auto;
+	}
+	.featurette, .half-rule {
+		display: block;
+	}
+	.destination {
+		width: 48%;
+		margin-top: 0;
+	}
+	.destination-1, .destination-3 {
+		margin-left: 0;
+	}
+	.destination-2, .destination-4 {
+		margin-left: 4%;
+	}
+	.destination-3, .destination-4 {
+		margin-top: 24px;
+	}
+	.age-wrap {
+		width: 60%;
+	}
+	.grid-sizer, .module {
+		width: 50%;
+	}
+	.module-destinations, .module-powered {
+		width: 100%;
+	}
+	.tip {
+		border-radius: 3px;
+	}
+	.tip:before {
+		border-width: 7px 0 7px 7px;
+		position: absolute;
+		left: auto;
+		right: -6px;
+		margin-bottom: -7px;
+		bottom: 50%;
+	}
+	.tip.flipped:before {
+		border-width: 7px 7px 7px 0;
+		position: absolute;
+		right: auto;
+		left: -6px;
+		margin-bottom: -7px;
+		bottom: 50%;
+	}
+	.logo-7, .logo-8 {
+		display: none;
+	}
+}
+
+@media (min-width:900px){
+	.supplier-logo {
+		width: 22%;
+	}
+	.logo-3, .logo-7 {
+		margin-left: 4%;
+	}
+	.row-1 .supplier-logo {
+		margin-top: 0;
+	}
+	.logo-7, .logo-8 {
+		display: block;
+	}
+}
+
+@media (min-width:960px){
+	.content {
+		width: 960px;
+		max-width: 100%;
+	}
+}
+
+@media (min-width:1200px){
+	.content {
+		width: 1200px;
+		max-width: 100%;
+	}
+	.destination {
+		width: 23.5%;
+		margin-left: 2%;
+		margin-top: 0;
+	}
+	.destination-1 {
+		margin-left: 0;
+	}
+	.destinationinfo {
+		width: 65%;
+	}
+	.destination_img {
+		left: 65%;
+		width: 35%;
+		height: 100%;
+	}
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+	.check-image {
+		background-image: url("/affiliateXmlStylesheets/common/img/check@2x.png");
+		-webkit-background-size: 26px auto;
+		background-size: 26px auto;
+	}
+	.supplier-logo {
+		background-image: url("/affiliateXmlStylesheets/common/img/suppliers/suppliers@2x.png");
+		-webkit-background-size: 80px auto;
+		background-size: 80px auto;
+	}
+	.logo-1 {
+		background-position: center -344px;
+	}
+	.logo-2 {
+		background-position: center -7px;
+	}
+	.logo-3 {
+		background-position: center -62px;
+	}
+	.logo-4 {
+		background-position: center -287px;
+	}
+	.logo-5 {
+		background-position: center -231px;
+	}
+	.logo-6 {
+		background-position: center -175px;
+	}
+	.logo-7 {
+		background-position: center -400px;
+	}
+	.logo-8 {
+		background-position: center -119px;
+	}
+
+}

@@ -1,0 +1,84 @@
+.select-wrap {
+  height: 32px;
+}
+
+select {
+  bottom: 0;
+}
+
+.icon-box {
+  border-width: 0;
+}
+
+.input-text {
+  height: 20px;
+  line-height: 20px;
+}
+
+.destinationinfo h4, .destinationinfo img {
+display: inline;
+}
+
+.search-form {
+  overflow: hidden;
+}
+
+.icon-content {
+  width: 96%;
+  padding: 4% 2%;
+}
+
+.icon-box {
+  padding: 0;
+}
+
+.ui-datepicker {
+  background-color: #eee;
+  margin-top: 0;
+}
+
+.ui-datepicker .ui-datepicker-header {
+  height: 38px;
+}
+
+.date-wrap {
+  margin-right: -1px;
+  width: 54%;
+  padding-right: 6%;
+}
+
+.hasDatepicker {
+  width: 96%;
+  padding: 6px 2%;
+}
+
+.tab {
+  overflow: hidden;
+}
+
+/*------------------------------
+
+  Media Queries
+
+------------------------------*/
+
+@media (max-width: 767px) {
+  .module {
+    width: 96%;
+    padding: 0 2%;
+  }
+  .tab-wrap {
+    margin-right: -1px;
+  }
+}
+@media (min-width: 768px) {
+  .module {
+    width: 48%;
+    padding: 0 1%;
+    margin-right: -1px;
+  }
+  .module-destinations, .module-powered {
+    width: 98%;
+    padding: 0 1%;
+  }
+}

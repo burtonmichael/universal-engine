@@ -1,0 +1,16 @@
+.icon-box {
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.icon-why .icon-box {
+    background-image: url(/affiliateXmlStylesheets/stageFull/img/icon-why.png);
+}
+
+.icon-manage .icon-box {
+    background-image: url(/affiliateXmlStylesheets/stageFull/img/icon-manage.png);
+}
+
+.destination {
+    visibility: visible;
+}
